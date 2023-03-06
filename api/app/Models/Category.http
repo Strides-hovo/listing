@@ -1,0 +1,9 @@
+
+
+GET http://listing.loc.api/api/post-templates
+Accept: application/json
+
+
+
+GET http://listing.loc/api/post3
+Accept: application/json

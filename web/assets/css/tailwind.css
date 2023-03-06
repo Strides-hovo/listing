@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .text-color {
+        @apply text-gray-900 dark:text-gray-200
+    }
+    .bg-color{
+        @apply bg-gray-100 dark:bg-cyan-700
+    }
+    .button-color{
+        @apply bg-gray-500 text-white dark:bg-cyan-700  dark:text-gray-300
+    }
+    .content-color{
+        @apply text-gray-900 dark:text-gray-600
+    }
+    .content-padding{
+        @apply s:px-4 md:px-8 lg:px-0 lg:px-12
+    }
+
+}
